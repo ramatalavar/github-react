@@ -11,10 +11,10 @@ You will need following to installed before starting the project
 
 ## Installation
 
-`git clone < repositorie url>` this repositorie
-`cd github-react`
-`npm install`
+- `git clone < repositorie url>` this repositorie
+- `cd github-react`
+- `npm install`
 
 ## Running / Development
 
-- 'npm start'
+- `npm start`
