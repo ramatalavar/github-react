@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Media, Image, Tab, Row, Col, Nav, NavItem, Badge, Glyphicon } from 'react-bootstrap';
 import axios from 'axios';
 import RepoList from './RepoList';
-import DataStore from './store/DataStore';
+import DataStore from '../store/DataStore';
 import RepoCardView from './RepoCardView';
 
 class UserDetails extends Component {

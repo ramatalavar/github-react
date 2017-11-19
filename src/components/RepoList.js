@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { ListGroup, ListGroupItem, Media, Image, Glyphicon, Pagination } from 'react-bootstrap';
 import moment from 'moment';
-import languageColors from './data/colors';
+import languageColors from '../data/colors';
 import axios from 'axios';
 import AppLoading from './AppLoading';
-import TextTruncate from './helpers/truncate';
-import DataStore from './store/DataStore';
+import TextTruncate from '../helpers/truncate';
+import DataStore from '../store/DataStore';
 
 const URL = "https://api.github.com/search/repositories?q=";
 

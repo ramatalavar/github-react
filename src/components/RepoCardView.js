@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import languageColors from './data/colors';
+import languageColors from '../data/colors';
 import moment from 'moment';
-import TextTruncate from './helpers/truncate';
+import TextTruncate from '../helpers/truncate';
 import { Glyphicon } from 'react-bootstrap';
 
 class RepoCardView extends Component {
